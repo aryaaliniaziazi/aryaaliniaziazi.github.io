@@ -28,15 +28,28 @@
         }
         /* Contact info styling */
         #contact-info {
-            font-size: 0.85em; /* Smaller font size */
-            margin-bottom: 40px; /* Larger gap */
+            font-size: 0.8em; /* Smaller font size */
+            margin-bottom: 20px; /* Adjusted gap */
         }
         #contact-info a {
             color: white;
             text-decoration: none;
+            display: block; /* Display links as blocks */
+            margin-bottom: 10px; /* Adjusted vertical spacing */
         }
         #contact-info a:hover {
             text-decoration: underline;
+        }
+        /* Button styling */
+        .btn {
+            display: inline-block;
+            background-color: transparent;
+            color: white;
+            border: none; /* Remove border */
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -44,8 +57,9 @@
     <header>
         <h1 id="name">Arya Alinia Ziazi</h1>
         <div id="contact-info">
-            <a href="mailto:arya.alinia@gmail.com">arya.alinia@gmail.com</a><br>
-            <a href="https://ca.linkedin.com/in/arya-alinia-ziazi" target="_blank">https:/www.linkedin.com/in/arya-alinia-ziazi/</a>
+            <a href="mailto:arya.alinia@gmail.com">Email</a>
+            <a href="https://ca.linkedin.com/in/arya-alinia-ziazi" target="_blank">LinkedIn</a>
+            <a href="Arya_Highlights.pdf" class="btn" download target="_blank">Highlights</a>
         </div>
     </header>
 </body>
